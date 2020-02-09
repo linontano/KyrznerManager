@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="Salir"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_exit"/>
+    <item
+        android:id="@+id/action_reloadFragment"
+        android:title="Recargar"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_refresh"/>
+
+</menu>
